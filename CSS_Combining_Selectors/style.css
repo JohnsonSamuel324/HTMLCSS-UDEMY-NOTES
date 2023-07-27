@@ -1,0 +1,24 @@
+/* Applies to both h1 and h2 */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Grabs first child paragraph of .box */
+.box > p {
+    color: firebrick;
+}
+
+/* Applies to all descendants(li) inside of the .box parent  */
+.box li {
+    color: blue;
+}
+
+/* Applies to all lists with class of .done */
+li.done {
+    color: green;
+}
+
+
+ul p.done {
+    font-size: 0.5rem;
+}
