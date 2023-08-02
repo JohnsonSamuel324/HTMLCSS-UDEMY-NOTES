@@ -1,27 +1,8 @@
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.top-container {
-    background-color: #e4f9f5;
-}
-
-.profile-container {
-    margin-top: 5%;
-}
-
-.skills-container {
-}
-
-.skill-picture {
-    float: left;
-}
-
-.skill-desc {
-    float: right;
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
 }
 
 p {
@@ -31,17 +12,22 @@ p {
     margin-inline-end: 0px;
 }
 
-.profile-picture {
-    border-radius: 50%;
-    width: 7.5%;
+h1, h2 {
+    color: #66bfbf;
 }
 
 h1 {
-    color: #66bfbf;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
 }
 
 h2 {
-    color: #66bfbf;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e;
 }
 
 #subtext-underline {
@@ -54,3 +40,85 @@ hr {
     width: 4%;
     margin: 100px auto;
 }
+
+/* Sections, Classes, ID's */
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Section */
+.top-container {
+    background-color: #e4f9f5;
+    width: 100%;
+}
+
+#right-cloud {
+    position: absolute;
+    top: 25px;
+    right: 250px;
+}
+
+#title-text {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#left-cloud {
+    position: absolute;
+    left: 250px;
+}
+
+/* Profile Section */
+.profile-container {
+    margin-top: 5%;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 7.5%;
+}
+
+/* Skills Section */
+.skills-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    row-gap: 3rem;
+    margin: 50px;
+}
+
+.skill-picture {
+    width: 75%;
+}
+
+.skill-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Contact Me Section */
+.contactme-container {
+    gap: 10px;
+}
+.contactme-container p {
+    width: 50%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.contactme-container button {
+    margin: 1.25rem 0;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: #18acb4;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+

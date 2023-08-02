@@ -4,31 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500;700&family=Sacramento&display=swap" rel="stylesheet">
     <title>Samuel Johnson</title>
 </head>
 <body>
+    <!-- Header section -->
     <div class="section top-container">
-        <img src=".\assets\cloud.png" alt="A cloud"/>
-        <h1 id="title-text">I'm Samuel</h1>
+        <img id="right-cloud" src=".\assets\cloud.png" alt="A cloud"/>
+        <h1 id="title-text">I'm Samuel.</h1>
         <h2>a <span id="subtext-underline">pro</span>grammer</h2>
-        <img src=".\assets\cloud.png" alt="A cloud"/>
+        <img id="left-cloud" src=".\assets\cloud.png" alt="A cloud"/>
         <img src=".\assets\mountain.png" alt="A mountain with snow on top"/>
     </div>
+    
+    <!-- Profile section -->
     <div class="section profile-container">
         <img class="profile-picture" src=".\assets\sam-headshot.png" alt="Picture of Samuel Johnson">
-        <h1>Hello.</h1>
+        <h2>Hello.</h2>
         <p>I am an upcoming Web Developer. I'm a self-taught coder following videos on Youtube, Udemy, etc. Coding is my passion❤️</p>
     </div>
     <hr>
-    <div class="section skills-container">
-        <h1>My Skills</h1>
-        <div class="skill skill-1">
+
+    <!-- My Skills Section -->
+    <div class="section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
             <img class="skill-picture" src=".\assets\cat-typing.gif" alt="Gif of a cat typing happily on a laptop">
-        <div class="skill-desc">
-            <h3>Design and development</h3>
-            <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+            <div class="skill-desc">
+                <h3>Design and development</h3>
+                <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+            </div>
+            <img class="skill-picture" src=".\assets\chillies.png" alt="Cartoon picture of spicy red peppers">
+            <div class="skill-desc">
+                <h3>Hot Wings Challenge</h3>
+                <p>But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing challenges. Ghost Peppers and Carolina Reapers are my favorite snacks.</p>
+            </div>
         </div>
-        </div>
+    </div>
+    <hr>
+
+    <!-- Contact Me -->
+    <div class="section contactme-container">
+        <h2>Get In Touch</h2>
+        <h3>If you love hot wings as much as I do.</h3>
+        <p>Love hot wings as much as I do? Let's talk about how awesome they are! We can code while we eat hot wings!</p>
+        <button type="button">Contact Me</button>
     </div>
 </body>
 </html>
