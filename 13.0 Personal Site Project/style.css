@@ -3,9 +3,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
+    background-color: #181a1b;
 }
 
 p {
+    color: white;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -51,7 +53,7 @@ hr {
 
 /* Header Section */
 .top-container {
-    background-color: #e4f9f5;
+    background-color: #0d3a33;
     width: 100%;
 }
 
